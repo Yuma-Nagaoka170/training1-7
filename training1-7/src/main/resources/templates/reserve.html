@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>予約ページ</title>
+</head>
+<body>
+	<h1>宿泊予約</h1>
+	   <form action="/reserve" method="post">
+	       <label for="name">お名前:</label>
+	       <input type="text" id="name" name="name" required>
+	       <br>
+	       
+	       <label for="room">部屋タイプ:</label>
+	       <select id="room" name="room">
+	           <option value="single">シングル</option>
+	           <option value="double">ダブル</option>
+	           <option value="suite">スイート</option>
+	       </select>
+	       <br>
+
+	       <input type="submit" value="予約する">
+		   </form>
+</body>
+</html>
